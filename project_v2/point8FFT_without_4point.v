@@ -6,7 +6,11 @@
  ***                                                                     		   *** 
  ***************************************************************************************** 
  *** Filename: point8FFT_without_4point.v  Created by Joel Garcia Valencia, 12/03/22   *** 
- ***    --- revision history, if any, goes here ---                      		   *** 
+ ***    --- revision history, if any, goes here ---                      		   ***
+This is a basic 8 point FFT without using the N/2 block (4 point) shown in my report,
+All calculation is done by hands which is also shown in the report. The only issue that 
+this has is it rounds up which needs to be fixed.
+ 
  *****************************************************************************************/ 
 
 module point8FFT_without_4point( f_0, f_1, f_2, f_3, f_4, f_5, f_6, f_7, 
@@ -23,7 +27,7 @@ real z = 0.70710; //this is 1 divided by sqrt(2) = 0.707106781
 assign F_0r = f_0+f_1+f_2+f_3+f_4+f_5+f_6+f_7;
 assign F_0i = 0;
 
-assign F_1r = f_0 - f_4 + f_1*z - f_5*z + f_3*z + -f_7*z;
+assign F_1r = f_0 - f_4 + f_1*z - f_5*z + f_3*z - f_7*z;
 assign F_1i = f_2 - f_6 - f_1*z + f_5*z - f_3*z + f_7*z;
 
 assign F_2r = f_0 + f_4 - f_2 - f_6;

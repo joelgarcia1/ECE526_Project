@@ -1,3 +1,18 @@
+/***************************************************************************************** 
+ ***                                                                     		   *** 
+ *** ECE 526 Final Project            Joel Garcia Valencia, Fall, 2022  	  	   *** 
+ ***                                                                    		   *** 
+ *** Final Project Fast Fourier Transform		                         		   *** 
+ ***                                                                     		   *** 
+ ***************************************************************************************** 
+ *** Filename: point8_FFT.v  Created by Joel Garcia Valencia, 12/03/22   *** 
+ ***    --- revision history, if any, goes here ---                      		   ***
+This is a basic 8 point FFT using the 4 point block, this is to start the process of N/2
+which is written on the report. Unfortunatley there are errors with trying to get the complex
+numbers in each section
+ 
+ *****************************************************************************************/ 
+
 module point8_FFT(f_0,f_1,f_2,f_3,f_4,f_5,f_6,f_7, F_0r, F_1r, F_2r, F_3r, F_4r, F_5r, F_6r, F_7r, F_0i, F_1i, F_2i, F_3i, F_4i, F_5i, F_6i, F_7i);
 
 parameter N = 8;
