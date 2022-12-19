@@ -5,7 +5,8 @@
  ***                                                                     	*** 
  ******************************************************************************** 
  *** Filename:point8FFT_ver2_tb.v Created by Joel Garcia Valencia, 12/03/22  	*** 
- ***    --- revision history, if any, goes here ---                      	*** 
+ *** --- Calulations are shown in report, that how each points are being 	***
+ *** outputted correctly through assign statements ---                        *** 
  ********************************************************************************/ 
 
 

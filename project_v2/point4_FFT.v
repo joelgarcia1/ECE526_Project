@@ -6,7 +6,8 @@
  ***                                                                     *** 
  *************************************************************************** 
  *** Filename: point4_FFT.v   Created by Joel Garcia Valencia, 12/03/22  *** 
- ***    --- revision history, if any, goes here ---                      *** 
+ *** --- Calulations are shown in report, that how each points are being ***
+ *** outputted correctly through assign statements ---                   *** 
  ***************************************************************************/ 
 
 
