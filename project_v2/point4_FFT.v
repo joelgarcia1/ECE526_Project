@@ -1,3 +1,15 @@
+/*************************************************************************** 
+ ***                                                                     *** 
+ *** ECE 526 Final Project            Joel Garcia Valencia, Fall, 2022   *** 
+ ***                                                                     *** 
+ *** Final Project Fast Fourier Transform		                         *** 
+ ***                                                                     *** 
+ *************************************************************************** 
+ *** Filename: point4_FFT.v   Created by Joel Garcia Valencia, 12/03/22  *** 
+ ***    --- revision history, if any, goes here ---                      *** 
+ ***************************************************************************/ 
+
+
 
 module point4_FFT(f_0,f_1,f_2,f_3, F_0r, F_1r, F_2r, F_3r, F_0i, F_1i, F_2i, F_3i);
 

@@ -1,3 +1,15 @@
+/******************************************************************************** 
+ ***                                                                     	*** 
+ *** ECE 526 Final Project            Joel Garcia Valencia, Fall, 2022 		*** 
+ ***                                                                     	*** 
+ *** Final Project Fast Fourier Transform 	                        	*** 
+ ***                                                                     	*** 
+ ******************************************************************************** 
+ *** Filename: point4_FFT_tb.v Created by Joel Garcia Valencia, 12/03/22  	*** 
+ ***    --- revision history, if any, goes here ---                      	*** 
+ ********************************************************************************/ 
+
+
 `timescale 1ns/1ps //ns
 module point4_FFT_tb();
 parameter N = 8;
@@ -14,6 +26,8 @@ always begin #5 clk = ~clk; end
 
 initial 
 	begin
+$vcdpluson;
+
    f_0 = 1'd1;
    f_1 = 2'd2;
    f_2 = 1'd1;

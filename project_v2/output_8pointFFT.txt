@@ -1,0 +1,19 @@
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12-SP2-9_Full64; Runtime version N-2017.12-SP2-9_Full64;  Dec 18 19:15 2022
+VCD+ Writer N-2017.12-SP2-9_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
+6 0i
+-1 2i
+1 1i
+-1 2i
+ 2 0i
+ 1 -2i
+ 1 -1i
+ -1 2i
+
+$finish called from file "point8FFT_ver2_tb.v", line 44.
+$finish at simulation time               100000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 100000 ps
+CPU Time:      0.210 seconds;       Data structure size:   0.0Mb
+Sun Dec 18 19:15:12 2022
